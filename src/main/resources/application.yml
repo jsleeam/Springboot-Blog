@@ -1,0 +1,12 @@
+spring:
+ datasoure:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+  username: cos
+  password: cos1234
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/views/
+
+
